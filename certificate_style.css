@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    background-image: linear-gradient(to right top, #e889d8, #ff94ab, #ffb090, #f1cf93, #d8e9b3);
+}
+
+.navbar{
+    display: flex;
+    gap: 50px;
+    left: 0;
+} 
+
+#nav-logo{
+    width: auto;
+    height: 80px;
+    border: 2px solid rgb(12, 71, 180);
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.links{
+    display: flex;
+    gap: 60px;
+    margin: 20px 80px;
+}
+a{
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(56, 3, 11);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title{
+    margin-top: 40px;
+    color: rgb(72, 0, 87);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline double;
+    padding: 10px;
+}
+
+.listofcertificates{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
